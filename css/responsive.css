@@ -7,10 +7,9 @@
 		display: flex;
 		flex-wrap: wrap;
 	}	
-
 	
 	/*move these up towards the top of the page*/
-	.logoImg {
+	.logo-img {
 		margin-top: 0px;
 	}	
 
@@ -30,7 +29,7 @@
 	}
 
 	/*take up the whole width to maintain visibility*/
-	.col-4 {
+	.col-4 {		
 		width: 100%;
 		display: block;
 	}
@@ -42,13 +41,13 @@
 	}
 
 	/*center the images*/
-	.appImg {
+	.app-img {
 		margin-left: auto;
 		margin-right: auto;
+		display: block;
 	}
 }
-
-@media screen and (min-width: 501px)  and (max-width: 750px) {
+@media screen and (min-width: 501px)  and (max-width: 700px){
 	
 	.row {
 		display: flex;
@@ -56,8 +55,8 @@
 	}	
 
 	/*not really sure why, but I think it looks better with this at these sizes*/
-	.mainImg {
-		padding: 10px;
+	.main-img {
+		 padding: 10px;
 	}
 
 	/*I like these better with a larger and multi-row approach, they get too small staying on the same row*/
@@ -69,17 +68,8 @@
 		margin-right: 0;
 		margin-left: 0;
 	}
-
 	/*keep the images apart*/
-	.appImg {
+	.app-img {
 		padding: 5%;
-	}
-}
-
-@media screen and (min-width: 751px) {
-	/*this looks like the specs max width, and I like the way it looks */
-	.row {
-		width: 100%;
-		max-width: 950px;
-	}
+	}	
 }
