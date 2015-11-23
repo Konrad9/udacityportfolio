@@ -48,7 +48,7 @@ a {
 }
 
 .row {
-	max-width: 950px;
+	max-width: 100%;
 	display: flex;
 	margin: auto;
 }
@@ -64,6 +64,10 @@ a {
 }
 
 .appImg {
+	max-width: 100%;
+}
+
+.hero {
 	max-width: 100%;
 }
 
