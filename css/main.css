@@ -38,6 +38,11 @@ h4 {
 	color: #666756;
 }
 
+p {
+	font-size: 1.15em;
+	padding-left: 15px;
+}
+
 a {
 	font-size: .8em;
 	text-align: center;
@@ -48,9 +53,14 @@ a {
 }
 
 .row {
+	width: 950px;
 	max-width: 100%;
 	display: flex;
 	margin: auto;
+}
+
+.hero {
+	max-width: 100%;
 }
 
 .logoImg {
@@ -58,16 +68,12 @@ a {
 	margin-bottom: 10px;
 }
 
-.mainImg {
+.main-img {
 	max-width: 100%;
 	margin: auto;
 }
 
-.appImg {
-	max-width: 100%;
-}
-
-.hero {
+.app-img {
 	max-width: 100%;
 }
 
@@ -100,7 +106,7 @@ a {
 .col-4 {
 	margin-right: 15px;
 	margin-left: 15px;
-	width: 33.33%;
+	width: calc(33.33% - 30px);
 }
 
 .col-4:first-of-type {
