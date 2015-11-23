@@ -4,8 +4,8 @@
 	}
 
 	.row {
-	display: flex;
-	flex-wrap: wrap;
+		display: flex;
+		flex-wrap: wrap;
 	}	
 
 	
@@ -30,63 +30,56 @@
 	}
 
 	/*take up the whole width to maintain visibility*/
-	.col-4 {		
+	.col-4 {
 		width: 100%;
 		display: block;
 	}
 
 	/*formatting unnecessary at this width*/
 	.col-4:nth-of-type(n) {
-    	margin-right: 0;
-    	margin-left: 0;
-    }
+		margin-right: 0;
+		margin-left: 0;
+	}
 
-    /*center the images*/
+	/*center the images*/
 	.appImg {
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
 	}
-
 }
 
-
-@media screen and (min-width: 501px)  and (max-width: 700px){
+@media screen and (min-width: 501px)  and (max-width: 700px) {
 	
 	.row {
-	display: flex;
-	flex-wrap: wrap;
+		display: flex;
+		flex-wrap: wrap;
 	}	
 
 	/*not really sure why, but I think it looks better with this at these sizes*/
 	.mainImg {
-		 padding: 10px;
+		padding: 10px;
 	}
 
 	/*I like these better with a larger and multi-row approach, they get too small staying on the same row*/
-    .col-4 {
-    	width: 50%;
-    }
+	.col-4 {
+		width: 50%;
+	}
 
-    .col-4:nth-of-type(n) {
-    	margin-right: 0;
-    	margin-left: 0;
-    }
+	.col-4:nth-of-type(n) {
+		margin-right: 0;
+		margin-left: 0;
+	}
 
-    /*keep the images apart*/
+	/*keep the images apart*/
 	.appImg {
 		padding: 5%;
-	}	
-
-
-
+	}
 }
 
 @media screen and (min-width: 701px) {
 	/*this looks like the specs max width, and I like the way it looks */
 	.row {
-		max-width: 950px;		
+		max-width: 950px;
 	}
-
-
 }
