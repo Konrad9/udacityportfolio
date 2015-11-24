@@ -12,7 +12,8 @@
 hr {
 	height: 4px;
 	background-color: #BCBBBB;
-	max-width: 950px;
+	width: 950px;
+	max-width: 100%;
 	border: 0 none;
 	margin-bottom: 15px;
 }
@@ -57,13 +58,14 @@ a {
 	max-width: 100%;
 	display: flex;
 	margin: auto;
+	min-height: 20px;
 }
 
 .hero {
 	max-width: 100%;
 }
 
-.logoImg {
+.logo-img {
 	margin: 10px;
 	margin-bottom: 10px;
 }
