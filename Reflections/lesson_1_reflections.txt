@@ -1,0 +1,3 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It explicitly called out which lines were different, making finding any new errors a trivial task. Instead of searching the entire file, I only had to look at the specific lines that changed. Since lines that didn't change are less likely (but not completely unlikely) to cause an error, this significantly speeds up bug finding. 
